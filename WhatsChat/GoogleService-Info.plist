@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>856854006181-jkf8uic4nt977jro506d041j4p91fgg6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.856854006181-jkf8uic4nt977jro506d041j4p91fgg6</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB8bMxEFpROFXBAHxbNyD-kDr8u860JKFQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>856854006181</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Yaz-Burrell.WhatsChat</string>
+	<key>PROJECT_ID</key>
+	<string>whatchat-98e73</string>
+	<key>STORAGE_BUCKET</key>
+	<string>whatchat-98e73.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:856854006181:ios:76f632a3da80de1c</string>
+	<key>DATABASE_URL</key>
+	<string>https://whatchat-98e73.firebaseio.com</string>
+</dict>
+</plist>
