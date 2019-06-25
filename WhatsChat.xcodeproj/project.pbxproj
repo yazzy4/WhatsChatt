@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		91DF64DA22C2B2A300E67BD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DF64D922C2B2A300E67BD4 /* AppDelegate.swift */; };
-		91DF64DC22C2B2A300E67BD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DF64DB22C2B2A300E67BD4 /* ViewController.swift */; };
+		91DF64DC22C2B2A300E67BD4 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DF64DB22C2B2A300E67BD4 /* ChatViewController.swift */; };
 		91DF64DF22C2B2A300E67BD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91DF64DD22C2B2A300E67BD4 /* Main.storyboard */; };
 		91DF64E122C2B2A500E67BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91DF64E022C2B2A500E67BD4 /* Assets.xcassets */; };
 		91DF64E422C2B2A500E67BD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91DF64E222C2B2A500E67BD4 /* LaunchScreen.storyboard */; };
@@ -38,7 +38,7 @@
 /* Begin PBXFileReference section */
 		91DF64D622C2B2A300E67BD4 /* WhatsChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91DF64D922C2B2A300E67BD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		91DF64DB22C2B2A300E67BD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91DF64DB22C2B2A300E67BD4 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		91DF64DE22C2B2A300E67BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91DF64E022C2B2A500E67BD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91DF64E322C2B2A500E67BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				91DF64D922C2B2A300E67BD4 /* AppDelegate.swift */,
-				91DF64DB22C2B2A300E67BD4 /* ViewController.swift */,
+				91DF64DB22C2B2A300E67BD4 /* ChatViewController.swift */,
 				91DF64DD22C2B2A300E67BD4 /* Main.storyboard */,
 				91DF64E022C2B2A500E67BD4 /* Assets.xcassets */,
 				91DF64E222C2B2A500E67BD4 /* LaunchScreen.storyboard */,
@@ -149,7 +149,6 @@
 				E41B28B19A566D67778648C3 /* Pods-WhatsChat.debug.xcconfig */,
 				B35C55D30E685D54C4EDAE1B /* Pods-WhatsChat.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -340,7 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91DF64DC22C2B2A300E67BD4 /* ViewController.swift in Sources */,
+				91DF64DC22C2B2A300E67BD4 /* ChatViewController.swift in Sources */,
 				91DF64DA22C2B2A300E67BD4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
