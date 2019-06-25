@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ChatViewController: UIViewController {
+class ViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,7 +18,8 @@ class ChatViewController: UIViewController {
     }
 
     @objc func handleLogout(){
-        
+        let loginController = LoginViewController()
+        present(loginController, animated: true, completion: nil)
     }
 
 }

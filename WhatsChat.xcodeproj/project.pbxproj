@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		91DF64DA22C2B2A300E67BD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DF64D922C2B2A300E67BD4 /* AppDelegate.swift */; };
-		91DF64DC22C2B2A300E67BD4 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DF64DB22C2B2A300E67BD4 /* ChatViewController.swift */; };
+		91DF64DC22C2B2A300E67BD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DF64DB22C2B2A300E67BD4 /* ViewController.swift */; };
 		91DF64DF22C2B2A300E67BD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91DF64DD22C2B2A300E67BD4 /* Main.storyboard */; };
 		91DF64E122C2B2A500E67BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91DF64E022C2B2A500E67BD4 /* Assets.xcassets */; };
 		91DF64E422C2B2A500E67BD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91DF64E222C2B2A500E67BD4 /* LaunchScreen.storyboard */; };
 		91DF64EF22C2B2A500E67BD4 /* WhatsChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DF64EE22C2B2A500E67BD4 /* WhatsChatTests.swift */; };
 		91DF64FA22C2B2A500E67BD4 /* WhatsChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DF64F922C2B2A500E67BD4 /* WhatsChatUITests.swift */; };
 		91DF650822C2B30400E67BD4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91DF650722C2B30400E67BD4 /* GoogleService-Info.plist */; };
+		91DF650B22C2D0D600E67BD4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DF650A22C2D0D600E67BD4 /* LoginViewController.swift */; };
 		DC37DBC4004BFC524E2D9671 /* Pods_WhatsChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7CB184E5E8966469C9F4BD2 /* Pods_WhatsChat.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +39,7 @@
 /* Begin PBXFileReference section */
 		91DF64D622C2B2A300E67BD4 /* WhatsChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91DF64D922C2B2A300E67BD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		91DF64DB22C2B2A300E67BD4 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		91DF64DB22C2B2A300E67BD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		91DF64DE22C2B2A300E67BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91DF64E022C2B2A500E67BD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91DF64E322C2B2A500E67BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +51,7 @@
 		91DF64F922C2B2A500E67BD4 /* WhatsChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsChatUITests.swift; sourceTree = "<group>"; };
 		91DF64FB22C2B2A500E67BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91DF650722C2B30400E67BD4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		91DF650A22C2D0D600E67BD4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B35C55D30E685D54C4EDAE1B /* Pods-WhatsChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsChat.release.xcconfig"; path = "Target Support Files/Pods-WhatsChat/Pods-WhatsChat.release.xcconfig"; sourceTree = "<group>"; };
 		E41B28B19A566D67778648C3 /* Pods-WhatsChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsChat.debug.xcconfig"; path = "Target Support Files/Pods-WhatsChat/Pods-WhatsChat.debug.xcconfig"; sourceTree = "<group>"; };
 		E7CB184E5E8966469C9F4BD2 /* Pods_WhatsChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,7 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				91DF64D922C2B2A300E67BD4 /* AppDelegate.swift */,
-				91DF64DB22C2B2A300E67BD4 /* ChatViewController.swift */,
+				91DF650922C2D07B00E67BD4 /* View Controllers */,
 				91DF64DD22C2B2A300E67BD4 /* Main.storyboard */,
 				91DF64E022C2B2A500E67BD4 /* Assets.xcassets */,
 				91DF64E222C2B2A500E67BD4 /* LaunchScreen.storyboard */,
@@ -141,6 +143,15 @@
 				91DF64FB22C2B2A500E67BD4 /* Info.plist */,
 			);
 			path = WhatsChatUITests;
+			sourceTree = "<group>";
+		};
+		91DF650922C2D07B00E67BD4 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				91DF64DB22C2B2A300E67BD4 /* ViewController.swift */,
+				91DF650A22C2D0D600E67BD4 /* LoginViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 		F30694475FCE08ECADBA3C26 /* Pods */ = {
@@ -339,7 +350,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91DF64DC22C2B2A300E67BD4 /* ChatViewController.swift in Sources */,
+				91DF650B22C2D0D600E67BD4 /* LoginViewController.swift in Sources */,
+				91DF64DC22C2B2A300E67BD4 /* ViewController.swift in Sources */,
 				91DF64DA22C2B2A300E67BD4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
