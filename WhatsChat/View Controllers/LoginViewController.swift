@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+//import FirebaseAuth
 
 class LoginViewController: UIViewController {
     
@@ -28,8 +30,34 @@ class LoginViewController: UIViewController {
         button.layer.masksToBounds = true
         button.setTitleColor(UIColor.white, for: .normal)
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
+        
+        button.addTarget(self, action: #selector(handleRegister), for: .touchUpInside)
         return button
     }()
+    
+    @objc func handleRegister() {
+        guard let email = emailTextField.text, let password =  passwordTextField.text, let name = nameTextField.text else {
+            print("Form is not valid")
+            return
+        }
+        Auth.auth().createUser(withEmail:
+            email, password: password, completion: { (user, error) in
+            
+            if error != nil {
+                print(error ?? "no user")
+            }
+                let ref = Database.database().reference(fromURL: "https://whatchat-98e73.firebaseio.com/")
+                let values = ["name": name, "email": email]
+                ref.updateChildValues(values, withCompletionBlock: { (err, ref) in
+                    if err != nil {
+                        print(err ?? "no user")
+                    }
+                    print("Saved user successfully into firebase DB")
+                })
+
+        })
+        print(123)
+    }
     
     let nameTextField: UITextField = {
         let tf = UITextField()
