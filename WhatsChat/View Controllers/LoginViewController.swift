@@ -66,6 +66,16 @@ class LoginViewController: UIViewController {
         tf.isSecureTextEntry = true
         return tf
     }()
+    
+    let profileImageView: UIImageView = {
+        let imageView = UIImageView()
+        imageView.translatesAutoresizingMaskIntoConstraints = false
+        imageView.image = UIImage(named: "birdie")
+        imageView.contentMode = .scaleAspectFill
+        imageView.layer.cornerRadius = 25
+        imageView.layer.masksToBounds = true
+        return imageView
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -75,9 +85,20 @@ class LoginViewController: UIViewController {
 //        self.setNeedsStatusBarAppearanceUpdate()
         view.addSubview(inputContainerView)
         view.addSubview(loginRegisterButton)
+        view.addSubview(profileImageView)
         
         setupContainerView()
         setupLoginRegisterButton()
+        setupProfileImageView()
+        
+    }
+    
+    func setupProfileImageView() {
+        view.addSubview(profileImageView)
+        profileImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        profileImageView.bottomAnchor.constraint(equalTo: inputContainerView.topAnchor, constant: -55).isActive = true
+        profileImageView.widthAnchor.constraint(equalToConstant: 150).isActive = true
+        profileImageView.heightAnchor.constraint(equalToConstant: 150).isActive = true
         
     }
     
@@ -95,7 +116,6 @@ class LoginViewController: UIViewController {
         inputContainerView.addSubview(emailSeperatorView)
         
         inputContainerView.addSubview(passwordTextField)
-
         
         
         nameTextField.leftAnchor.constraint(equalTo: inputContainerView.leftAnchor, constant: 12).isActive = true
@@ -133,6 +153,8 @@ class LoginViewController: UIViewController {
         loginRegisterButton.widthAnchor.constraint(equalTo: inputContainerView.widthAnchor).isActive = true
         loginRegisterButton.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.06).isActive = true
     }
+    
+
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
